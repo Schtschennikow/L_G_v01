@@ -14,12 +14,12 @@
   },
   "legend": {
     "edgeLabel": "Lawdrafts",
-    "colorLabel": "–",
+    "colorLabel": "Fraction",
     "nodeLabel": "Person"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": false,
+    "groupSelectorAttribute": "fraction",
     "hoverBehavior": "default"
   },
   "informationPanel": {
@@ -29,10 +29,10 @@
   "sigma": {
     "drawingProperties": {
       "defaultEdgeType": "curve",
-      "defaultHoverLabelBGColor": "#181b1f",
+      "defaultHoverLabelBGColor": "#002147",
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
-      "defaultLabelColor": "#ffffff",
+      "defaultLabelColor": "#000",
       "labelThreshold": 10,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
@@ -40,8 +40,8 @@
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 96.0,
-      "minEdgeSize": 1.0,
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
       "minNodeSize": 1,
       "maxNodeSize": 7
     },
